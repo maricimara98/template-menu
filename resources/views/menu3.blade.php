@@ -1,6 +1,9 @@
 @extends('layout3')
 @section('menu3')
-    <header class="site-header push">This is a header</header>
+    <header class="site-header push">
+        <button class="menu-btn">&#9776; Menu</button>
+        This is a header
+    </header>
 
     <!-- Pushy Menu -->
     <nav class="pushy pushy-left" data-focus="#first-link">
@@ -102,7 +105,23 @@
 
         </div>
 
-        <footer class="site-footer push">This is a footer</footer>
+        <footer class="site-footer push">
+            <p>
+                CENTRAL DE ADMISSÃO E ALTA - HOSPITAL UNIVERSITÁRIO - UFMA<br>
+                Unidade Presidente Dutra Rua Barão de Itapary, nº 227, Centro - São Luis-MA. CEP: 65020-070<br>
+                Telefone: (098) 2109-1023
+            </p>
+
+            <div id="footer">
+                <p>
+                    NTS - <span>Núcleo de Telessaúde</span>
+                </p>
+                <p>
+                    4º andar - HUPD
+                </p>
+            </div>
+
+        </footer>
 
         <!-- Pushy JS -->
         <script src="js/pushy.js"></script>
